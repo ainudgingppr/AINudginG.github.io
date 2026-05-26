@@ -31,5 +31,4 @@ The findings provide a roadmap for businesses and policymakers to design AI syst
 研究成果旨在為業界與政策制定者提供具體指引，協助設計既高效又合乎倫理、同時尊重用戶自主權的 AI 系統。
 (i) Full version — This research project (Project Number: 2025.B16.018.25D) is funded by the Public Policy Research Funding Scheme / Strategic Public Policy Research Funding Scheme of The Government of the Hong Kong Special Administrative Region (project in progress); or
 (ii) Short-form for non-academic publication — This research project is funded by the Public Policy Research Funding Scheme / Strategic Public Policy Research Funding Scheme of The Government of the HKSAR (project in progress).
-
 (iii)Any information, opinions, findings, conclusions or recommendations expressed in this material/event (or by members of the research team) do not represent the views of The Government of the Hong Kong Special Administrative Region and/or the Assessment Panel.
