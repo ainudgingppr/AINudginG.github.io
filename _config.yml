@@ -4,8 +4,8 @@ description: "AI Nudging for Sustainable Tourism Research"
 baseurl: "/AINudge-HKTourism"
 url: "https://ainudgingppr-spec.github.io"
 
-# 主题配置（指定版本，避免兼容性问题）
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# 主题配置（降级到兼容 GitHub Pages 的版本）
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # 全局页面默认设置
 defaults:
