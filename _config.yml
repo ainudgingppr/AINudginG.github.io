@@ -3,19 +3,22 @@ title: AINudge-HKTourism
 description: AI Nudging for Sustainable Tourism Research
 markdown: kramdown
 
-
+# 启用侧边栏（关键！）
 sidebar:
   nav: "main"
 
 # 定义导航菜单
-navigation:
-  main:
-    - title: 首頁 / Home
-      url: /
-    - title: 關於 / About
-      url: /about/
-    - title: 團隊 / Team
-      url: /team/
+main:
+  - title: "首頁 / Home"
+    url: /
+  - title: "關於 / About"
+    url: /about/
+  - title: "團隊 / Team"
+    url: /team/
+
+# 其他必要配置
+author:
+  name: "AINudge-HKTourism Project"
 
 exclude:
   - Gemfile
