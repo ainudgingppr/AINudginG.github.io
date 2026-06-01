@@ -1,45 +1,7 @@
-# 基础配置
-title: "AINudge-HKTourism"
-description: "AI Nudging for Sustainable Tourism Research"
+title: AINudge-HKTourism
 baseurl: "/AINudge-HKTourism"
 url: "https://ainudgingppr-spec.github.io"
 
-# 主题配置（降级到兼容 GitHub Pages 的版本）
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-# 全局页面默认设置
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: single
-      author_profile: false
-      sidebar:
-        nav: "main"
-
-# 导航菜单定义
-nav:
-  main:
-    - title: "首頁 / Home"
-      url: /
-    - title: "關於 / About"
-      url: /about/
-    - title: "團隊 / Team"
-      url: /team/
-
-# Jekyll 与插件配置
-markdown: kramdown
-highlighter: rouge
+theme: minima
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo-tag
-
-# 排除无关文件，避免构建报错
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - Study2.py
