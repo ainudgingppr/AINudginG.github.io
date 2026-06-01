@@ -1,8 +1,3 @@
----
-layout: single
-title: 關於 / About
-permalink: /about/
----
 
 # 關於本項目 / About This Project
 ## AI Nudging for Sustainable Tourism: Mechanisms, Boundaries, and Ethical Implications
