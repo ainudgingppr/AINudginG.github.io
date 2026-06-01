@@ -1,0 +1,15 @@
+remote_theme: academicpages/academicpages.github.io
+title: AINudge-HKTourism
+markdown: kramdown
+
+sidebar:
+  - title: 導覽 / Navigation
+    items:
+      - title: 首頁 / Home
+        url: /
+      - title: 團隊 / Team
+        url: /team/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
