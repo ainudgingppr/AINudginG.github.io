@@ -1,13 +1,13 @@
-# 网站基础配置
+# 基础配置
 title: "AINudge-HKTourism"
 description: "AI Nudging for Sustainable Tourism Research"
 baseurl: "/AINudge-HKTourism"
 url: "https://ainudgingppr-spec.github.io"
 
-# 使用老师同款 Minimal Mistakes 主题
-remote_theme: "mmistakes/minimal-mistakes"
+# 主题配置（GitHub Pages 官方兼容）
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
-# 启用侧边栏导航（关键！）
+# 启用侧边栏导航（主题标准格式）
 defaults:
   - scope:
       path: ""
@@ -17,18 +17,21 @@ defaults:
       sidebar:
         nav: "main"
 
-# 定义导航菜单（和老师页面结构一致）
-sidebars:
-  - main:
-      - title: "首頁 / Home"
-        url: /
-      - title: "關於 / About"
-        url: /about/
-      - title: "團隊 / Team"
-        url: /team/
+# 导航菜单定义
+nav:
+  main:
+    - title: "首頁 / Home"
+      url: /
+    - title: "關於 / About"
+      url: /about/
+    - title: "團隊 / Team"
+      url: /team/
 
-# 其他必要配置
+# 必要依赖配置
 markdown: kramdown
+highlighter: rouge
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor
