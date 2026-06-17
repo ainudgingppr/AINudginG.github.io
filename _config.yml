@@ -1,6 +1,6 @@
 title: AINudge-HKTourism
-baseurl: "/AINudge-HKTourism"
-url: "https://ainudgingppr-spec.github.io"
+baseurl: ""
+url: "https://ainudgingppr.github.io"
 
 theme: minima
 plugins:
